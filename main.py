@@ -12,7 +12,7 @@ def styles():
 
 @app.route("/produkte")
 def produkte():
-    return render_template("index.html")
+    return render_template("produkte.html")
 
 if __name__ == "__main__":
     app.run()
